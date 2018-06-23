@@ -8,8 +8,8 @@ You have two options of use; NAME or UID.
 ## How to use ##
  - cp script over to mgmt station (this script is intended to run directly on the mgmt station)
  - execute ./script-name.sh
-  - script will ask for IP of SMS or Domain of MDS you wish to search
+    - script will ask for IP of SMS or Domain of MDS you wish to search
  - Output will be in delete-unused-objects.txt
-  - delete-unused-objects.txt will have the mgmt_cli commands for deletion. If you want to execute it do the following;
-    - chmod 755 delete-unused-objects.txt
-    - ./delete-unused-objects.txt
+    - delete-unused-objects.txt will have the mgmt_cli commands for deletion. If you want to execute it do the following;
+      - chmod 755 delete-unused-objects.txt
+      - ./delete-unused-objects.txt
