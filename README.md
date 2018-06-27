@@ -3,7 +3,7 @@ This script will search your object database for unused objects. It will output 
 You have two options of use; NAME or UID.
 
 ## Please be careful when using any API tool to modify your database. Be sure to verify all data ##
-
+## DO NOT USE THIS ON GLOBAL DOMAIN OBJECTS! The script cannot check if GLOBAL objects are used in a different CMA ##
 
 ## How to use ##
  - cp script over to mgmt station (this script is intended to run directly on the mgmt station)
